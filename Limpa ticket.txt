@@ -1,0 +1,23 @@
+cd C:\gitHub\atlas-digital\backend
+$env:DRY_RUN="1"
+npm run script:clean-conversations
+
+
+cd C:\gitHub\atlas-digital\backend
+Remove-Item Env:DRY_RUN -ErrorAction SilentlyContinue
+$env:COMPANY_ID = "1"
+$env:CONFIRM = "YES_I_UNDERSTAND"
+npm run script:clean-conversations
+
+
+cd C:\gitHub\atlas-digital\backend
+Remove-Item Env:DRY_RUN -ErrorAction SilentlyContinue
+$env:COMPANY_ID = "1"
+$env:CONFIRM = "YES_I_UNDERSTAND"
+npm run script:clean-conversations
+
+
+
+
+preciso que voce gere pra mim, um memorial completo do sistema, todas as funcionalidades, telas, para que serve, quais o benefícios de usar o sistema, ou seja, uma documentação completa; consegue? preciso disso para um documento de apresentação para novos clientes; quero que ao ler, o cliente brilhe os olhos e compre; consegue? mas, quero com a maior riqueza de detalhes, por favor! não economiza em detalhes!!!
+pode ser um .md

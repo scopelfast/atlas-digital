@@ -1,0 +1,38 @@
+[
+  {
+    "id": "554198371769@s.whatsapp.net",
+    "name": "Cleverson Scopel",
+    "lid": "117312904528083@lid"
+  },
+  {
+    "id": "554192770788@s.whatsapp.net",
+    "name": "Desconhecido M Ligou",
+    "lid": "248872400113737@lid"
+  },
+  {
+    "id": "554197979758@s.whatsapp.net",
+    "name": "Alex Marin",
+    "lid": "23480653328392@lid"
+  },
+  {
+    "id": "554198260821@s.whatsapp.net",
+    "name": "Juliana Martins",
+    "lid": "121629229191329@lid"
+  },
+  {
+    "id": "117312904528083@lid",
+    "notify": "Cleverson $copel"
+  },
+  {
+    "id": "110724290482183@lid",
+    "notify": "Juliano Andreazza"
+  },
+  {
+    "id": "23480653328392@lid",
+    "notify": "Alex Marin - Pessoal"
+  },
+  {
+    "id": "270849932300479@lid",
+    "imgUrl": "changed"
+  }
+]

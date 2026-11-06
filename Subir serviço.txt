@@ -1,0 +1,10 @@
+No Windows, a partir da raiz do projeto (c:\gitHub\atlas-digital):
+
+Backend
+cd c:\gitHub\atlas-digital\backend
+npm run dev:server
+
+
+Frontend (em outro terminal)
+cd c:\gitHub\atlas-digital\frontend
+npm start

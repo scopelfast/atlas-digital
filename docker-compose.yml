@@ -1,0 +1,38 @@
+# PostgreSQL + Redis para desenvolvimento local.
+# Uso: docker compose up -d
+# Dados do Postgres persistem no volume atlas-digital_postgres_data.
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: atlas-digital-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: atlas
+      POSTGRES_PASSWORD: atlas_dev_secret
+      POSTGRES_DB: atlas_digital
+    # Host 5433: evita conflito com PostgreSQL nativo do Windows na 5432.
+    # No backend/.env use DB_PORT=5433.
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U atlas -d atlas_digital"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: atlas-digital-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+
+volumes:
+  postgres_data:
+  redis_data:

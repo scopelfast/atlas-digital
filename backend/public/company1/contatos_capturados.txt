@@ -1,0 +1,12 @@
+[
+  {
+    "id": "554197979758@s.whatsapp.net",
+    "name": "Alex Marin",
+    "lid": "23480653328392@lid"
+  },
+  {
+    "id": "554198371769@s.whatsapp.net",
+    "name": "Cleverson Scopel",
+    "lid": "117312904528083@lid"
+  }
+]
